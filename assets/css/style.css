@@ -1,0 +1,278 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Arial';
+}
+a{
+	color: #054C2D;
+	text-decoration: none;
+	-webkit-transition: color 0.2s;
+}
+a:visited{
+	color: #0064D3;
+}
+a:hover{
+	transition: 0.2s;
+	color: #663399;
+}
+.content{
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+}
+.login{
+	padding: 50px 0;
+}
+.login a{
+	font-size: 22px;
+	text-decoration: none;
+	color: #000;
+	padding: 0 10px;
+	-webkit-transition: color 0.2s;
+}
+.login a:hover{
+	color: #aaa;
+	transition: 0.2s;
+}
+.header{
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	font-size: 5px;
+	background-color: #054C2D;
+	padding: 5px;
+	text-transform: uppercase;
+	color: #F5B100;
+}
+.logo{
+	height: 75px;
+	margin: 35px;
+	text-align: center;
+}
+.logo img{
+	height: 100%;
+}
+.content-container{
+	width: 100%;
+	margin: auto;
+	min-height: 600px;
+}
+.separator{
+	height: 1px;
+	background-color: #054C2D;
+}
+.title{
+	font-size: 56px;
+	color: #0584A3;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 30px 0;
+}
+.tg{
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 50px 50px 50px 275px;
+}
+.tg td{
+	font-size: 16px;
+	padding: 5px 10px;
+	border-style: solid;
+	border-width: 1px;
+	overflow: hidden;
+	word-break: normal;
+	border-color: black;
+	height: 60px;
+}
+.tg tr:nth-child(2n-1){
+	background-color: #ff8080;
+}
+.tg th{
+	font-size: 22px;
+	font-weight: normal;
+	padding: 20px 30px;
+	border-style: solid;
+	border-width: 1px;
+	overflow: hidden;
+	word-break: normal;
+	border-color: black;
+	background-color: #990000;
+	color: #F5B100;
+	text-transform: capitalize;
+}
+.tg .tg-cly1{
+	text-align:left;
+	vertical-align:middle
+}
+.tg .tg-0lax{
+	text-align:left;
+	vertical-align:top
+}
+.footer{
+	background-color: #990000;
+	height: 30px;
+	color: #F5B100;
+	font-size: 10px;
+	padding: 10px;
+}
+.login-form{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	font-size: 22px;
+	margin: 0 2%;
+}
+.login-form input{
+	width: 30%;
+	font-size: 22px;
+	padding: 5px 10px;
+	margin: 10px;
+	border: 1px solid #054C2D;
+	border-radius: 5px;
+	background-color: #eee;
+}
+.login-form button{
+	margin: 0 10px;
+	font-size: 22px;
+	border-style: none;
+	background-color: #fff;
+	color: #000;
+	-webkit-transition: color 0.2s;
+}
+.login-form button:hover{
+	color: #aaa;
+	transition: 0.2s;
+}
+.close{
+	margin: 10px;
+}
+.form-holder{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+	margin: 30px 0;
+}
+.register-form, .form-holder div{
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	font-size: 16px;
+	margin: 0 5%;
+}
+.register-form input, .register-form select, .register-form button{
+	font-size: 16px;
+	padding: 5px 10px;
+	margin: 10px 0;
+}
+.register-form label{
+	text-align: left;
+}
+.register-form button{
+	width: 25%;
+	border-style: none;
+	border-radius: 10px;
+	margin: auto;
+	-webkit-transition: background-color 0.2s;
+}
+.register-form button{
+	transition: 0.2s;
+	background-color: #ffcc00;
+	cursor: not-allowed;
+}
+.error-msg{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	top: 0;
+	left: 0;
+	background-color: red;
+}
+.success-msg{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	top: 0;
+	left: 0;
+	background-color: green;
+}
+.guidelines h2{
+	margin: 10px 5px;
+	font-size: 28px;
+}
+.guidelines{
+	font-size: 20px;
+}
+#profile-button{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	margin: 10px 10px 10px 0;
+}
+.full-container{
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0;
+}
+.photo-box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-position: center;
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	border: 1px solid #000;
+	margin: 0 auto;
+}
+.desc{
+	width: 40%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+.upload-form{
+	font-size: 28px;
+	display: block;
+	text-align: center;
+	margin: 20px 0;
+}
+.upload-button{
+	width: 60%;
+	border-style: none;
+	border-radius: 10px;
+	background-color: #990000;
+	color: #F59400;
+	text-align: center;
+	margin: 20px 0;
+	font-size: 28px;
+	padding: 5px 10px;
+	-webkit-transition: background-color 0.2s;
+}
+.upload-button:hover{
+	transition: 0.2s;
+	background-color: #058E2D;
+}
+#fileToUpload{
+	font-size: 18px;
+}
+.delete-form {
+	margin: 30px 0 0 0 !important; 
+}
+.delete-button-td{
+	padding: 10px 20px;
+	font-size: 16px;
+	margin: 10px;
+	border: none;
+	border-radius: 10px;
+	background-color: #F59400;
+	color: #054C2D;
+	-webkit-transition: background-color 0.2s;
+}
+.delete-button-td:hover{
+	transition: 0.2s;
+	background-color: #F55600;
+}
